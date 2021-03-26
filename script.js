@@ -1,4 +1,3 @@
-console.log('You have connected...')
 
 document.addEventListener("DOMContentLoaded", () =>{
 
