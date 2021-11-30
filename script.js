@@ -75,7 +75,7 @@ function createPokeImage(pokeID, containerDiv){
     pokeImgContainer.classList.add('image')
 
     let pokeImage = document.createElement('img')
-    pokeImage.srcset = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`
+    pokeImage.srcset = `https://pokeres.bastionbot.org/images/pokemon/${pokeID}.png`
 
     pokeImgContainer.append(pokeImage);
     containerDiv.append(pokeImgContainer);
